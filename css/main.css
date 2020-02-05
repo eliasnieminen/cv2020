@@ -126,6 +126,11 @@ img#me {
 
 }
 
+#languages {
+    width: 50%;
+    margin: auto;
+}
+
 #works {
 
     margin-top: 2em;
