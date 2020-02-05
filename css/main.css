@@ -61,6 +61,15 @@ body {
     font-size: 1.1em;
 }
 
+#info-field h4 {
+    font-size: 0.9em;
+}
+
+#info-field h4 a {
+    color: #3da4ff;
+}
+
+
 img#me {
 
     width: 100%;
@@ -76,7 +85,7 @@ img#me {
 
     padding: 2em;
     background: #0b2e13;
-    width: 70%;
+    width: 60%;
 
 }
 
@@ -85,13 +94,28 @@ img#me {
     font-size: 2em;
     opacity: 0.95;
     text-align: center;
+    margin-bottom: 0.5em;
 
+}
+
+#contents h5 {
+    opacity: 0.95;
 }
 
 #profile {
 
     margin-bottom: 2em;
+    text-align: justify;
 
+}
+
+.scaling-table tr td:first-child {
+    font-size: 0.9em;
+    width: 30%;
+}
+
+.scaling-table tr td:nth-child(2) {
+    width: 70%;
 }
 
 .additional {
@@ -185,6 +209,28 @@ footer {
         width: 90%;
     }
 
+    .scaling-table tr td:first-child {
+        font-size: 0.8em;
+    }
+
+}
+
+@media(max-width: 550px) {
+
+    #prof-pic {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    #info-field {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        width: 80%;
+    }
+
 }
 
 
@@ -212,9 +258,7 @@ footer {
     }
 
     #info-field {
-        margin-top: 2em;
         width: 100%;
-        text-align: center;
     }
 
     #info-field h1 {
